@@ -58,7 +58,8 @@ EXTRA_libhw_module_a_SOURCES = \
 			hw_usbx.c hw_usbx.h \
 			receive.c receive.h \
 			transmit.c transmit.h \
-			serial.c serial.h
+			serial.c serial.h \
+			hw_zotac.c
 
 libhw_module_a_LIBADD = @hw_module@
 libhw_module_a_DEPENDENCIES = @hw_module@

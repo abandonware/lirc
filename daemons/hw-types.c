@@ -59,6 +59,7 @@ extern struct hardware hw_uirt2;
 extern struct hardware hw_uirt2_raw;
 extern struct hardware hw_usb_uirt_raw;
 extern struct hardware hw_usbx;
+extern struct hardware hw_zotac;
 
 #ifndef HW_DEFAULT
 # define HW_DEFAULT hw_default
@@ -160,6 +161,7 @@ struct hardware *hw_list[] = {
 #ifdef HAVE_LINUX_HIDDEV_FLAG_UREF
 	&hw_samsung,
 	&hw_sb0540,
+	&hw_zotac,
 #endif
 	&hw_silitek,
 #ifdef HAVE_LIBUSB
